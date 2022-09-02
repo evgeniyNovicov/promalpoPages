@@ -151,8 +151,10 @@
                         <div class="overlay-black"></div>
                     </div>
                 </div>
-                <div class="swiper-button swiper-button-prev"></div>
-                <div class="swiper-button swiper-button-next"></div>
+                <div class="swiper-button_wrapper">
+                    <div class="swiper-button swiper-button-prev"></div>
+                    <div class="swiper-button swiper-button-next"></div>
+                </div>
             </div>
             <!-- <div class="quote-box">
                 <h1 class="title title--white-animate">Найдем подход к любой высоте</h1>
@@ -285,10 +287,10 @@
                     <div class="services__title_wrapper">
                         <h2 class="second-title title--white-animate">Как связаться с нами</h2>
                     </div>
-                    <form action="" class="form contact-form">
-                        <input class="input contact-form__input" type="text" name="Имя" placeholder="Введите ваше имя" required>
-                        <input class=" input contact-form__input" type="tel" name="Телефон" placeholder="Введите ваш телефон" required>
-                        <input class=" input contact-form__input" type="email" name="Email" placeholder="Введите вашу почту">
+                    <form id="contact-form" action="" method="POST" class="form contact-form">
+                        <input class="input contact-form__input" type="text" name="name" placeholder="Введите ваше имя" required>
+                        <input class=" input contact-form__input" type="tel" name="telephone" placeholder="Введите ваш телефон" required>
+                        <input class=" input contact-form__input" type="email" name="email" placeholder="Введите вашу почту">
                         <div class="select_wrp select-column--one">
                             <div class="select-custm">Выберите услугу</div>
                             <div class="select__dropdown">
@@ -326,8 +328,8 @@
                                 </div>
                             </div>
                         </div>
-                        <input class=" input contact-form__input" type="text" name="Город" placeholder="Введите ваш город" required>
-                        <textarea class="textarea contact-form__textarea" name="Сообщение" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                        <input class=" input contact-form__input" type="text" name="city" placeholder="Введите ваш город" required>
+                        <textarea class="textarea contact-form__textarea" name="message" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
                         <button type="submit" class="form-btn">Отправить</button>
                     </form>
                 </div>
@@ -388,13 +390,13 @@
         <div class="popap_wrapper" id="popap-services">
             <div class="popap-overlay">
                 <div class="popap">
-                    <form action="" class="form contact-form">
-                        <input class="input contact-form__input" type="text" name="Имя_попап" placeholder="Введите ваше имя">
-                        <input class=" input contact-form__input" type="tel" name="Телефон_попап" placeholder="Введите ваш телефон">
-                        <input class=" input contact-form__input" type="email" name="Email_попап" placeholder="Введите вашу почту">
-                        <input class=" input contact-form__input" type="text" name="Город_попап" placeholder="Введите ваш город">
-                        <textarea class="textarea contact-form__textarea" name="Сообщение_попап" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
-                        <input type="hidden" name="Тип_сервиса" id="popap-services-input">
+                    <form id="contact-form-popup" action="" method="POST" class="form contact-form">
+                        <input class="input contact-form__input" type="text" name="name" placeholder="Введите ваше имя">
+                        <input class=" input contact-form__input" type="tel" name="telephone" placeholder="Введите ваш телефон">
+                        <input class=" input contact-form__input" type="email" name="email" placeholder="Введите вашу почту">
+                        <input class=" input contact-form__input" type="text" name="city" placeholder="Введите ваш город">
+                        <textarea class="textarea contact-form__textarea" name="message" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                        <input type="hidden" name="services" id="popap-services-input">
                         <button type="submit" class="form-btn">Отправить</button>
                     </form>
                     <div class="btn-close_wrapper">
@@ -403,14 +405,15 @@
                             <div class="btn-close__item btn-close__item--second"></div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
         <!--POPAP END -->
     </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" integrity="sha512-l0grYOI8XZga5TajPOiqLrQVCKrdh+k0QSEtS+cpJlNeI8Nu9GOhsVaFyFQuPQfYp02GnhsyHqkPR7P7BTKYAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/main.min.js"></script>
+    <script src="https://digitalbutlers.me/any_scripts/arab-work/php/main.min.js"></script>
+    <!-- <script src="js/main.min.js"></script> -->
 </body>
 </html>
