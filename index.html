@@ -13,400 +13,392 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="main">
+<div class="main">
 
-        <!-- HEADER START -->
-        <div class="header">
-            <div class="container">
-                <div class="header-inner">
-                    <a class="logo_wrap" href="#">
-<!--                        <img class="logo__image" style="max-width: 100%;" src="images/logo-pitstop.png" alt="">-->
-                        <div class="logo__text">
-                            <div class="logo-one">
-                               <span class="logo__span-letter">Г</span>идро
-                                <span class="logo__span-letter">П</span>рофи
+    <!-- HEADER START -->
+    <div class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a class="logo_wrap" href="#">
+                    <!--                        <img class="logo__image" style="max-width: 100%;" src="images/logo-pitstop.png" alt="">-->
+                    <div class="logo__text">
+                        <div class="logo-one">
+                            <span class="logo__span-letter">Г</span>идро
+                            <span class="logo__span-letter">П</span>рофи
+                        </div>
+                    </div>
+                </a>
+                <div class="menu_wrapper">
+                    <navbar class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#services">Услуги</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#about">О нас</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#contact">Контакты</a>
+                            </li>
+                        </ul>
+                    </navbar>
+                    <div class="menu-contact-box box-adaptive--hidden">
+                        <a class="menu-contact__link" href="mailto:kaleffinfo@yandex.ru">
+                            kaleffinfo@yandex.ru
+                        </a>
+                        <p class="menu__text">Время работы: пн-вс 11:00-23:00</p>
+                    </div>
+                    <div class="menu-contact-box menu-contact-box--tel">
+                        <a class="menu-contact__link" href="tel:+375336660424">
+                            +375-33-666-04-24
+                        </a>
+                        <a class="menu-contact__link" href="tel:+375291338077">
+                            +375-29-133-80-77
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-contact-box menu-contact-box--social">
+                    <div class="link__circle_wrap">
+                        <div class="link-circle__inner">
+                            <div class="link__circle">
+                                <div class="link__circle"></div>
+                                <div class="link__circle link__circle--second"></div>
+                                <div class="link__circle link__circle--third"></div>
                             </div>
+                            <img class="image-message" src="./images/android-messages.png" alt="message">
+                        </div>
+                    </div>
+                    <div class="social-box">
+                        <div class="social-link_wrapper">
+                            <a class="social-link" href="https://t.me/+375297703106" target="_blank">
+                                <div class="social-link__name_wrapper">
+                                    <div class="social-link__name">Telegram</div>
+                                </div>
+                                <img class="social-link__image" src="./images/Telegram_logo.svg.png" alt="message">
+                            </a>
+                        </div>
+                        <div class="social-link_wrapper">
+                            <a class="social-link" href="viber://chat?number=375297703106" target="_blank">
+                                <div class="social-link__name_wrapper">
+                                    <div class="social-link__name">Viber</div>
+                                </div>
+                                <img class="social-link__image" src="./images/whatsapp.png" alt="message">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="burger">
+                    <div class="burger__item burger__item--top"></div>
+                    <div class="burger__item burger__item--center"></div>
+                    <div class="burger__item burger__item--bottom"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER END -->
+
+    <!-- HERO SECTION START -->
+    <section class="section section-hero">
+        <div class="hero-slider_wrapper swiper">
+            <div class="hero-slider swiper-wrapper">
+                <div class="hero-slide swiper-slide">
+                    <img class="hero-slide__image" src="./images/fon1.jpg" alt="image">
+                    <div class="quote-box">
+                        <h1 class="title title--white-animate"><span>Опыт 14+ лет -</span><br> гарантия качества и надежности.</h1>
+                    </div>
+                    <div class="overlay-black"></div>
+                </div>
+                <div class="hero-slide swiper-slide">
+                    <img class="hero-slide__image" src="./images/fon2.jpg" alt="image">
+                    <div class="quote-box">
+                        <h1 class="title title--white-animate"><span>Любая сложность -</span><br> от простого ремонта до сложных проектов.</h1>
+                    </div>
+                    <div class="overlay-black"></div>
+                </div>
+                <div class="hero-slide swiper-slide">
+                    <img class="hero-slide__image" src="./images/fon3.jpg" alt="image">
+                    <div class="quote-box">
+                        <h1 class="title title--white-animate"><span>Помощь с материалами -</span><br>подбор, расчет и выгодные цены.</h1>
+                    </div>
+                    <div class="overlay-black"></div>
+                </div>
+                <div class="hero-slide swiper-slide">
+                    <img class="hero-slide__image" src="./images/fon4.jpg" alt="image">
+                    <div class="quote-box">
+                        <h1 class="title title--white-animate"><span>Качественный монтаж –</span><br> без задержек и с соблюдением сроков.</h1>
+                    </div>
+                    <div class="overlay-black"></div>
+                </div>
+                <div class="hero-slide swiper-slide">
+                    <img class="hero-slide__image" src="./images/fon5.jpg" alt="image">
+                    <div class="quote-box">
+                        <h1 class="title title--white-animate"><span>Тепло и комфорт -</span><br>профессиональные системы отопления и теплых полов.</h1>
+                    </div>
+                    <div class="overlay-black"></div>
+                </div>
+                <div class="hero-slide swiper-slide">
+                    <img class="hero-slide__image" src="./images/fon6.jpg" alt="image">
+                    <div class="quote-box">
+                        <h1 class="title title--white-animate"><span>Чистая работа –</span><br> аккуратный монтаж без лишнего мусора.</h1>
+                    </div>
+                    <div class="overlay-black"></div>
+                </div>
+            </div>
+            <div class="swiper-button swiper-button-prev"></div>
+            <div class="swiper-button swiper-button-next"></div>
+        </div>
+        <!-- <div class="quote-box">
+            <h1 class="title title--white-animate">Найдем подход к любой высоте</h1>
+        </div> -->
+    </section>
+    <!-- HEADER END -->
+
+    <!-- SERVICES SECTION START -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="services__title_wrapper">
+                <h2 class="second-title services__title title--black-animate">Наши услуги</h2>
+            </div>
+            <div class="services">
+                <div class="services-item">
+                    <a class="services-info" style="background-image: url('/images/services/3.jpg');">
+                        <div class="services-info__inner">
+                            <p class="services-info__text">
+                                Водопровод под ключ: от обвязки до разводки. Монтаж систем водоснабжения.
+                            </p>
+                            <button class="services-info__button" data-id="popap-services" data-value="vodosnabzhenie">Заказать</button>
                         </div>
                     </a>
-                    <div class="menu_wrapper">
-                        <navbar class="menu">
-                            <ul class="menu-list">
-                                <li class="menu-item">
-                                    <a class="menu-item__link" href="#services">Услуги</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a class="menu-item__link" href="#about">О нас</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a class="menu-item__link" href="#contact">Контакты</a>
-                                </li>
-                            </ul>
-                        </navbar>
-                        <div class="menu-contact-box box-adaptive--hidden">
-                            <a class="menu-contact__link" href="mailto:kaleffinfo@yandex.ru">
-                                kaleffinfo@yandex.ru
-                            </a>
-                            <p class="menu__text">Время работы: пн-вс 11:00-23:00</p>
+                    <h3 class="third-title services-item__title">Монтаж водопровода</h3>
+                </div>
+                <div class="services-item">
+                    <a class="services-info" style="background-image: url('./images/services/4.jpg');">
+                        <div class="services-info__inner">
+                            <p class="services-info__text">
+                                Комплексные работы по канализации: монтаж труб, септиков, ливневых систем.
+                            </p>
+                            <button class="services-info__button" data-id="popap-services" data-value="kanalizacia">Заказать</button>
                         </div>
-                        <div class="menu-contact-box menu-contact-box--tel">
-                            <a class="menu-contact__link" href="tel:+375336660424">
-                                +375-33-666-04-24
-                            </a>
-                            <a class="menu-contact__link" href="tel:+375291338077">
-                                +375-29-133-80-77
-                            </a>
+                    </a>
+                    <h3 class="third-title services-item__title">Водоотведение</h3>
+                </div>
+                <div class="services-item">
+                    <a class="services-info" style="background-image: url('./images/services/2.jpg');">
+                        <div class="services-info__inner">
+                            <p class="services-info__text">
+                                Монтаж и ремонт систем отопления любой сложности. Профессиональная установка радиаторов и водяных теплых полов.
+                            </p>
+                            <button class="services-info__button" data-id="popap-services" data-value="montazh-otopleniya">Заказать</button>
                         </div>
-                    </div>
-                    <div class="menu-contact-box menu-contact-box--social">
-                        <div class="link__circle_wrap">
-                            <div class="link-circle__inner">
-                                <div class="link__circle">
-                                    <div class="link__circle"></div>
-                                    <div class="link__circle link__circle--second"></div>
-                                    <div class="link__circle link__circle--third"></div>
-                                </div>
-                                <img class="image-message" src="./images/android-messages.png" alt="message">
-                            </div>
+                    </a>
+                    <h3 class="third-title services-item__title">Системы отопления</h3>
+                </div>
+                <div class="services-item">
+                    <a class="services-info" style="background-image: url('./images/services/33.jpg');">
+                        <div class="services-info__inner">
+                            <p class="services-info__text">
+                                Обвязка котлов, монтаж насосного оборудования и бойлеров косвенного нагрева.
+                            </p>
+                            <button class="services-info__button" data-id="popap-services" data-value="teplye-poly">Заказать</button>
                         </div>
-                        <div class="social-box">
-                            <div class="social-link_wrapper">
-                                <a class="social-link" href="https://www.instagram.com/kaleeeff?igsh=MTQzaHJwZmI5M2M4dQ%3D%3D&utm_source=qr" target="_blank">
-                                    <div class="social-link__name_wrapper">
-                                        <div class="social-link__name">Instagram</div>
-                                    </div>
-                                    <img class="social-link__image" src="./images/inst.jfif" alt="message">
-                                </a>
-                            </div>
-                            <div class="social-link_wrapper">
-                                <a class="social-link" href="https://t.me/Kaleeff" target="_blank">
-                                    <div class="social-link__name_wrapper">
-                                        <div class="social-link__name">Telegram</div>
-                                    </div>
-                                    <img class="social-link__image" src="./images/Telegram_logo.svg.png" alt="message">
-                                </a>
-                            </div>
-                            <div class="social-link_wrapper">
-                                <a class="social-link" href="https://wa.me/79685283221" target="_blank">
-                                    <div class="social-link__name_wrapper">
-                                        <div class="social-link__name">Whatsapp</div>
-                                    </div>
-                                    <img class="social-link__image" src="./images/whatsapp.png" alt="message">
-                                </a>
-                            </div>
+                    </a>
+                    <h3 class="third-title services-item__title">Монтаж котельного оборудования</h3>
+                </div>
+                <div class="services-item">
+                    <a class="services-info" style="background-image: url('./images/services/5.jpg');">
+                        <div class="services-info__inner">
+                            <p class="services-info__text">
+                                Подбор, просчет и доставка материалов по выгодным ценам. Поможем выбрать оптимальное решение для вашего проекта с учетом бюджета.
+                            </p>
+                            <button class="services-info__button" data-id="popap-services" data-value="materialy">Заказать</button>
                         </div>
-                    </div>
-                    <div class="burger">
-                        <div class="burger__item burger__item--top"></div>
-                        <div class="burger__item burger__item--center"></div>
-                        <div class="burger__item burger__item--bottom"></div>
-                    </div>
+                    </a>
+                    <h3 class="third-title services-item__title">Материалы</h3>
                 </div>
             </div>
         </div>
-        <!-- HEADER END -->
+    </section>
+    <!-- SERVICES SECTION END -->
 
-        <!-- HERO SECTION START -->
-        <section class="section section-hero">
-            <div class="hero-slider_wrapper swiper">
-                <div class="hero-slider swiper-wrapper">
-                    <div class="hero-slide swiper-slide">
-                        <img class="hero-slide__image" src="./images/fon1.jpg" alt="image">
-                        <div class="quote-box">
-                            <h1 class="title title--white-animate"><span>Опыт 14+ лет -</span><br> гарантия качества и надежности.</h1>
-                        </div>
-                        <div class="overlay-black"></div>
-                    </div>
-                    <div class="hero-slide swiper-slide">
-                        <img class="hero-slide__image" src="./images/fon2.jpg" alt="image">
-                        <div class="quote-box">
-                            <h1 class="title title--white-animate"><span>Любая сложность -</span><br> от простого ремонта до сложных проектов.</h1>
-                        </div>
-                        <div class="overlay-black"></div>
-                    </div>
-                    <div class="hero-slide swiper-slide">
-                        <img class="hero-slide__image" src="./images/fon3.jpg" alt="image">
-                        <div class="quote-box">
-                            <h1 class="title title--white-animate"><span>Помощь с материалами -</span><br>подбор, расчет и выгодные цены.</h1>
-                        </div>
-                        <div class="overlay-black"></div>
-                    </div>
-                    <div class="hero-slide swiper-slide">
-                        <img class="hero-slide__image" src="./images/fon4.jpg" alt="image">
-                        <div class="quote-box">
-                            <h1 class="title title--white-animate"><span>Быстрый монтаж –</span><br> без задержек и с соблюдением сроков.</h1>
-                        </div>
-                        <div class="overlay-black"></div>
-                    </div>
-                    <div class="hero-slide swiper-slide">
-                        <img class="hero-slide__image" src="./images/fon5.jpg" alt="image">
-                        <div class="quote-box">
-                            <h1 class="title title--white-animate"><span>Тепло и комфорт -</span><br>профессиональные системы отопления и теплых полов.</h1>
-                        </div>
-                        <div class="overlay-black"></div>
-                    </div>
-                    <div class="hero-slide swiper-slide">
-                        <img class="hero-slide__image" src="./images/fon6.jpg" alt="image">
-                        <div class="quote-box">
-                            <h1 class="title title--white-animate"><span>Чистая работа –</span><br> аккуратный монтаж без лишнего мусора.</h1>
-                        </div>
-                        <div class="overlay-black"></div>
-                    </div>
-                </div>
-                <div class="swiper-button swiper-button-prev"></div>
-                <div class="swiper-button swiper-button-next"></div>
-            </div>
-            <!-- <div class="quote-box">
-                <h1 class="title title--white-animate">Найдем подход к любой высоте</h1>
-            </div> -->
-        </section>
-        <!-- HEADER END -->
-
-        <!-- SERVICES SECTION START -->
-        <section class="section" id="services">
-            <div class="container">
-                <div class="services__title_wrapper">
-                    <h2 class="second-title services__title title--black-animate">Наши услуги</h2>
-                </div>
-                <div class="services">
-                    <div class="services-item">
-                        <a class="services-info" style="background-image: url('./images/services/1.jpg');">
-                            <div class="services-info__inner">
-                                <p class="services-info__text">
-                                    Монтаж и ремонт систем отопления любой сложности. Профессиональная установка радиаторов, котлов и трубопроводов. Гарантия качества - стаж работы более 14 лет.
-                                </p>
-                                <button class="services-info__button" data-id="popap-services" data-value="montazh-otopleniya">Заказать</button>
-                            </div>
-                        </a>
-                        <h3 class="third-title services-item__title">Системы отопления</h3>
-                    </div>
-                    <div class="services-item">
-                        <a class="services-info" style="background-image: url('./images/services/2.jpg');">
-                            <div class="services-info__inner">
-                                <p class="services-info__text">
-                                    Установка водяных и электрических теплых полов под ключ. Оптимальные решения для квартир и частных домов. Помощь в выборе материалов по выгодным ценам.
-                                </p>
-                                <button class="services-info__button" data-id="popap-services" data-value="teplye-poly">Заказать</button>
-                            </div>
-                        </a>
-                        <h3 class="third-title services-item__title">Тёплые полы</h3>
-                    </div>
-                    <div class="services-item">
-                        <a class="services-info" style="background-image: url('./images/services/3.jpg');">
-                            <div class="services-info__inner">
-                                <p class="services-info__text">
-                                    Монтаж систем водоснабжения: от замены труб до установки бойлеров и насосных станций. Быстро, чисто, с гарантией на все работы.
-                                </p>
-                                <button class="services-info__button" data-id="popap-services" data-value="vodosnabzhenie">Заказать</button>
-                            </div>
-                        </a>
-                        <h3 class="third-title services-item__title">Водоснабжение</h3>
-                    </div>
-                    <div class="services-item">
-                        <a class="services-info" style="background-image: url('./images/services/4.jpg');">
-                            <div class="services-info__inner">
-                                <p class="services-info__text">
-                                    Профессиональный монтаж и ремонт систем водоотведения. Устранение засоров, замена труб, установка сантехнического оборудования.
-                                </p>
-                                <button class="services-info__button" data-id="popap-services" data-value="kanalizacia">Заказать</button>
-                            </div>
-                        </a>
-                        <h3 class="third-title services-item__title">Водоотведение</h3>
-                    </div>
-                    <div class="services-item">
-                        <a class="services-info" style="background-image: url('./images/services/5.jpg');">
-                            <div class="services-info__inner">
-                                <p class="services-info__text">
-                                    Подбор, просчет и доставка материалов по выгодным ценам. Поможем выбрать оптимальное решение для вашего проекта с учетом бюджета.
-                                </p>
-                                <button class="services-info__button" data-id="popap-services" data-value="materialy">Заказать</button>
-                            </div>
-                        </a>
-                        <h3 class="third-title services-item__title">Материалы</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- SERVICES SECTION END -->
-
-        <!-- BACKGROUND FIXED START -->
-        <div class="background-fixed" style="background-image: url('./images/fixed.webp');">
-            <div class="background-fixed__block-text title title--white-animate">
-                <span class="title" data-name="quote">Надежные системы</span>
-                <span class="title" data-name="quote">отопления и водоснабжения -</span>
-                <span class="title" data-name="quote">гарантия тепла,</span>
-                <span class="title" data-name="quote">комфорта и</span>
-                <span class="title" data-name="quote">бесперебойной работы </span>
-            </div>
-            <div class="background-fixed__overlay"></div>
+    <!-- BACKGROUND FIXED START -->
+    <div class="background-fixed" style="background-image: url('./images/fixed.webp');">
+        <div class="background-fixed__block-text title title--white-animate">
+            <span class="title" data-name="quote">Надежные системы</span>
+            <span class="title" data-name="quote">отопления и водоснабжения -</span>
+            <span class="title" data-name="quote">гарантия тепла,</span>
+            <span class="title" data-name="quote">комфорта и</span>
+            <span class="title" data-name="quote">бесперебойной работы </span>
         </div>
-        <!-- BACKGROUND FIXED END -->
-
-        <!--SECTION ABOUT START -->
-        <section class="section section-about" id="about">
-            <div class="container">
-                <div class="services__title_wrapper">
-                    <h2 class="second-title title--black-animate">Наша команда в цифрах</h2>
-                </div>
-                <div class="numbers">
-                    <div class="numbers-item">
-                        <div class="numbers-item__circle">
-                            <image class="numbers-item__icon numbers-item__icon--time" src="./images/numbers/time.png"></image>
-                        </div>
-                        <div class="numbers-item__number">14</div>
-                        <p class="numbers-item__text">лет на рынке</p>
-                    </div>
-                    <div class="numbers-item">
-                        <div class="numbers-item__circle">
-                            <image class="numbers-item__icon" src="./images/numbers/client.png"></image>
-                        </div>
-                        <div class="numbers-item__number">700+</div>
-                        <p class="numbers-item__text">довольных клиентов с теплыми домами</p>
-                    </div>
-                    <div class="numbers-item">
-                        <div class="numbers-item__circle">
-                            <image class="numbers-item__icon" src="./images/numbers/trub.svg"></image>
-                        </div>
-                        <div class="numbers-item__number">500+</div>
-                        <p class="numbers-item__text">отремонтированных систем водоснабжения</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--SECTION ABOUT END -->
-
-        <!--SECTION ABOUT START -->
-        <section class="section section-contact" id="contact" style="background-image: url('./images/contact/form.png');">
-            <div class="container">
-                <div class="contact__inner">
-                    <div class="services__title_wrapper">
-                        <h2 class="second-title title--white-animate">Как связаться с нами</h2>
-                    </div>
-                    <form action="" class="form contact-form">
-                        <input class="input contact-form__input" type="text" name="Имя" placeholder="Введите ваше имя*" required>
-                        <input class=" input contact-form__input" type="tel" name="Телефон" placeholder="Введите ваш телефон*" required>
-                        <input class=" input contact-form__input" type="email" name="Email" placeholder="Введите вашу почту">
-                        <div class="select_wrp select-column--one">
-                            <div class="select-custm">Выберите услугу</div>
-                            <div class="select__dropdown">
-                                <div class="select__dropdown-list">
-                                    <div class="select__dropdown-radio_wrp">
-                                        <input type="radio" name="services" id="sistemi-otoplenia" value="sistemi-otoplenia" class="select__dropdown-radio_input">
-                                        <label for="sistemi-otoplenia" class="select__dropdown-list_item">
-                                            Системы отопления
-                                        </label>
-                                    </div>
-                                    <div class="select__dropdown-radio_wrp">
-                                        <input type="radio" name="services" id="teplie-poli" value="teplie-poli" class="select__dropdown-radio_input">
-                                        <label for="teplie-poli" class="select__dropdown-list_item">
-                                            Тёплые полы
-                                        </label>
-                                    </div>
-                                    <div class="select__dropdown-radio_wrp">
-                                        <input type="radio" name="services" id="vodosnabgenie" value="vodosnabgenie" class="select__dropdown-radio_input">
-                                        <label for="vodosnabgenie" class="select__dropdown-list_item">
-                                            Водоснабжение
-                                        </label>
-                                    </div>
-                                    <div class="select__dropdown-radio_wrp">
-                                        <input type="radio" name="services" id="vodootvedenie" value="vodootvedenie" class="select__dropdown-radio_input">
-                                        <label for="vodootvedenie" class="select__dropdown-list_item">
-                                            Водоотведение
-                                        </label>
-                                    </div>
-                                    <div class="select__dropdown-radio_wrp">
-                                        <input type="radio" name="services" id="materiali" value="materiali" class="select__dropdown-radio_input">
-                                        <label for="materiali" class="select__dropdown-list_item">
-                                            Материалы
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <input class=" input contact-form__input" type="text" name="Город" placeholder="Введите ваш город*" required>
-                        <textarea class="textarea contact-form__textarea" name="Сообщение" id="message" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
-                        <button type="submit" class="form-btn">Отправить</button>
-                    </form>
-                </div>
-            </div>
-            <div class="overlay-black"></div>
-        </section>
-        <!--SECTION ABOUT END -->
-
-        <!--FOOTER START -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-block">
-                    <ul class="menu-list">
-                        <li class="menu-item">
-                            <a class="menu-item__link" href="#services">Услуги</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__link" href="#about">О нас</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__link" href="#contact">Контакты</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social">
-                        <li class="footer-social__item">
-                            <a class="footer-social__link" href="https://www.instagram.com/promalp_minsk/" target="_blank">
-                                <img class="footer-social__icon" src="./images/footer/inst-black.png" alt="icon">
-                                <img class="footer-social__icon footer-social__icon--hover" src="./images/footer/inst-color.png" alt="icon">
-                            </a>
-                        </li>
-                        <li class="footer-social__item">
-                            <a class="footer-social__link" href="https://telegram.me/PromAlpMINSK" target="_blank">
-                                <img class="footer-social__icon" src="./images/footer/telegram-black.png" alt="icon">
-                                <img class="footer-social__icon footer-social__icon--hover" src="./images/footer/telegram-color.png" alt="icon">
-                            </a>
-                        </li>
-                        <li class="footer-social__item">
-                            <a class="footer-social__link" href="https://wa.me/375291483750" target="_blank">
-                                <img class="footer-social__icon" src="./images/footer/whata-app-black.png" alt="icon">
-                                <img class="footer-social__icon footer-social__icon--hover" src="./images/footer/whats-app-color.png" alt="icon">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-block footer-block__privacy">
-                    <div class="footer-block__text">
-                        © 2025 ГидроПрофи
-                    </div>
-                    <div class="footer-block__text">
-                        Privacy Policy
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--FOOTER END -->
-
-        <!--POPAP START -->
-        <div class="popap_wrapper" id="popap-services">
-            <div class="popap-overlay">
-                <div class="popap">
-                    <form action="" class="form contact-form">
-                        <input class="input contact-form__input" type="text" name="Имя_попап" placeholder="Введите ваше имя*" required>
-                        <input class=" input contact-form__input" type="tel" name="Телефон_попап" placeholder="Введите ваш телефон*" required>
-                        <input class=" input contact-form__input" type="email" name="Email_попап" placeholder="Введите вашу почту">
-                        <input class=" input contact-form__input" type="text" name="Город_попап" placeholder="Введите ваш город*" required>
-                        <textarea class="textarea contact-form__textarea" name="Сообщение_попап" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
-                        <input type="hidden" name="Тип_сервиса" id="popap-services-input">
-                        <button type="submit" class="form-btn">Отправить</button>
-                    </form>
-                    <div class="btn-close_wrapper">
-                        <div class="btn-close">
-                            <div class="btn-close__item btn-close__item--one"></div>
-                            <div class="btn-close__item btn-close__item--second"></div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        <!--POPAP END -->
+        <div class="background-fixed__overlay"></div>
     </div>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" integrity="sha512-l0grYOI8XZga5TajPOiqLrQVCKrdh+k0QSEtS+cpJlNeI8Nu9GOhsVaFyFQuPQfYp02GnhsyHqkPR7P7BTKYAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/main.min.js"></script>
+    <!-- BACKGROUND FIXED END -->
+
+    <!--SECTION ABOUT START -->
+    <section class="section section-about" id="about">
+        <div class="container">
+            <div class="services__title_wrapper">
+                <h2 class="second-title title--black-animate">Наша команда в цифрах</h2>
+            </div>
+            <div class="numbers">
+                <div class="numbers-item">
+                    <div class="numbers-item__circle">
+                        <image class="numbers-item__icon numbers-item__icon--time" src="./images/numbers/time.png"></image>
+                    </div>
+                    <div class="numbers-item__number">14</div>
+                    <p class="numbers-item__text">лет на рынке</p>
+                </div>
+                <div class="numbers-item">
+                    <div class="numbers-item__circle">
+                        <image class="numbers-item__icon" src="./images/numbers/client.png"></image>
+                    </div>
+                    <div class="numbers-item__number">700+</div>
+                    <p class="numbers-item__text">довольных клиентов с теплыми домами</p>
+                </div>
+                <div class="numbers-item">
+                    <div class="numbers-item__circle">
+                        <image class="numbers-item__icon" src="./images/numbers/trub.svg"></image>
+                    </div>
+                    <div class="numbers-item__number">800+</div>
+                    <p class="numbers-item__text">смонтированных систем водоснабжения</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION ABOUT END -->
+
+    <!--SECTION ABOUT START -->
+    <section class="section section-contact" id="contact" style="background-image: url('./images/contact/form.png');">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="services__title_wrapper">
+                    <h2 class="second-title title--white-animate">Как связаться с нами</h2>
+                </div>
+                <form action="" class="form contact-form">
+                    <input class="input contact-form__input" type="text" name="Имя" placeholder="Введите ваше имя*" required>
+                    <input class=" input contact-form__input" type="tel" name="Телефон" placeholder="Введите ваш телефон*" required>
+                    <input class=" input contact-form__input" type="email" name="Email" placeholder="Введите вашу почту">
+                    <div class="select_wrp select-column--one">
+                        <div class="select-custm">Выберите услугу</div>
+                        <div class="select__dropdown">
+                            <div class="select__dropdown-list">
+                                <div class="select__dropdown-radio_wrp">
+                                    <input type="radio" name="services" id="sistemi-otoplenia" value="sistemi-otoplenia" class="select__dropdown-radio_input">
+                                    <label for="sistemi-otoplenia" class="select__dropdown-list_item">
+                                        Системы отопления
+                                    </label>
+                                </div>
+                                <div class="select__dropdown-radio_wrp">
+                                    <input type="radio" name="services" id="vodosnabgenie" value="vodosnabgenie" class="select__dropdown-radio_input">
+                                    <label for="vodosnabgenie" class="select__dropdown-list_item">
+                                        Подвод, развод воды
+                                    </label>
+                                </div>
+                                <div class="select__dropdown-radio_wrp">
+                                    <input type="radio" name="services" id="vodootvedenie" value="vodootvedenie" class="select__dropdown-radio_input">
+                                    <label for="vodootvedenie" class="select__dropdown-list_item">
+                                        Канализация (фикальные и ливневые)
+                                    </label>
+                                </div>
+                                <div class="select__dropdown-radio_wrp">
+                                    <input type="radio" name="services" id="materiali" value="materiali" class="select__dropdown-radio_input">
+                                    <label for="materiali" class="select__dropdown-list_item">
+                                        Материалы (помощь в выборе)
+                                    </label>
+                                </div>
+                                <div class="select__dropdown-radio_wrp">
+                                    <input type="radio" name="services" id="teplie-poli" value="teplie-poli" class="select__dropdown-radio_input">
+                                    <label for="teplie-poli" class="select__dropdown-list_item">
+                                        Монтаж котельного оборудования
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class=" input contact-form__input" type="text" name="Город" placeholder="Введите ваш город*" required>
+                    <textarea class="textarea contact-form__textarea" name="Сообщение" id="message" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                    <button type="submit" class="form-btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="overlay-black"></div>
+    </section>
+    <!--SECTION ABOUT END -->
+
+    <!--FOOTER START -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a class="menu-item__link" href="#services">Услуги</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item__link" href="#about">О нас</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item__link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="footer-social">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://www.instagram.com/promalp_minsk/" target="_blank">
+                            <img class="footer-social__icon" src="./images/footer/inst-black.png" alt="icon">
+                            <img class="footer-social__icon footer-social__icon--hover" src="./images/footer/inst-color.png" alt="icon">
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://telegram.me/PromAlpMINSK" target="_blank">
+                            <img class="footer-social__icon" src="./images/footer/telegram-black.png" alt="icon">
+                            <img class="footer-social__icon footer-social__icon--hover" src="./images/footer/telegram-color.png" alt="icon">
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://wa.me/375291483750" target="_blank">
+                            <img class="footer-social__icon" src="./images/footer/whata-app-black.png" alt="icon">
+                            <img class="footer-social__icon footer-social__icon--hover" src="./images/footer/whats-app-color.png" alt="icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-block footer-block__privacy">
+                <div class="footer-block__text">
+                    © 2025 ГидроПрофи
+                </div>
+                <div class="footer-block__text">
+                    Privacy Policy
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FOOTER END -->
+
+    <!--POPAP START -->
+    <div class="popap_wrapper" id="popap-services">
+        <div class="popap-overlay">
+            <div class="popap">
+                <form action="" class="form contact-form">
+                    <input class="input contact-form__input" type="text" name="Имя_попап" placeholder="Введите ваше имя*" required>
+                    <input class=" input contact-form__input" type="tel" name="Телефон_попап" placeholder="Введите ваш телефон*" required>
+                    <input class=" input contact-form__input" type="email" name="Email_попап" placeholder="Введите вашу почту">
+                    <input class=" input contact-form__input" type="text" name="Город_попап" placeholder="Введите ваш город*" required>
+                    <textarea class="textarea contact-form__textarea" name="Сообщение_попап" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                    <input type="hidden" name="Тип_сервиса" id="popap-services-input">
+                    <button type="submit" class="form-btn">Отправить</button>
+                </form>
+                <div class="btn-close_wrapper">
+                    <div class="btn-close">
+                        <div class="btn-close__item btn-close__item--one"></div>
+                        <div class="btn-close__item btn-close__item--second"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--POPAP END -->
+</div>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" integrity="sha512-l0grYOI8XZga5TajPOiqLrQVCKrdh+k0QSEtS+cpJlNeI8Nu9GOhsVaFyFQuPQfYp02GnhsyHqkPR7P7BTKYAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/main.min.js"></script>
 </body>
 </html>
