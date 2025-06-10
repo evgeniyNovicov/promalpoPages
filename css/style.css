@@ -958,7 +958,7 @@ input, button, textarea {
 
 .section-contact {
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-repeat: repeat;
     position: relative;
 }
