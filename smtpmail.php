@@ -31,7 +31,7 @@ $emailContent = "
 ";
 
 // Настройки SendGrid
-$apiKey = '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';
+
 $fromEmail = 'aleksei22.80@yandex.by';
 $toEmail = 'gidro-profi1@yandex.by';
 
