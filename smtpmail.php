@@ -32,6 +32,7 @@ $emailContent = "
 
 // Настройки SendGrid
 
+
 $fromEmail = 'aleksei22.80@yandex.by';
 $toEmail = 'gidro-profi1@yandex.by';
 
