@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded",(
     swiper(".hero-slider_wrapper"),
+    swiperPhoto(".photo-slider_wrapper"),
     openSelect('.select-custm', '.select__dropdown-list_item', '.select-custm'),
     openSocialBlock('.social-box'),
     openMenu('.burger', '.menu_wrapper'),
@@ -56,6 +57,33 @@ function swiper (selectorSwiper) {
             prevEl: '.swiper-button-prev',
         }
       });
+}
+function swiperPhoto (selectorSwiper) {
+    const swiper = new Swiper(selectorSwiper, {
+        speed: 500,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+            delay: 5000,
+        },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.photo-button-next',
+            prevEl: '.photo-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1
+            },
+            768: {
+                slidesPerView: 2
+            },
+            1024: {
+                slidesPerView: 3
+            }
+        }
+    });
 }
 
 function openMenu (selectorBtn, selectorMenu) {
@@ -135,3 +163,9 @@ function setInputMask() {
         phoneMask = IMask(input, { mask: '+{375}(00)000-00-00' });
     });
 }
+
+Fancybox.bind("[data-fancybox]", {
+    // Options
+    Thumbs: false,
+    Toolbar: true,
+});
