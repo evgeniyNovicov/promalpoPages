@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /search/
+
+Sitemap: https://gidroprofi.site/sitemap.xml
